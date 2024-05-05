@@ -11,5 +11,5 @@ router.use('./questions', questionsRoute);
 //option route
 router.use('./options', optionsRoute);
 
-module.exports = router;
+export default router;
 

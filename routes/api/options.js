@@ -6,4 +6,4 @@ import {deleteOptions, addVote} from '../../controllers/options.controller.js'
 router.delete('/:id/delete', deleteOptions);
 router.get('id/addVote', addVote);
 
-module.exports = router;
+export default router;

@@ -10,4 +10,4 @@ router.get('/:id', getQuestion);
 
 router.post('/:id/options/create', createOpt);
 
-module.exports = router;
+export default router;

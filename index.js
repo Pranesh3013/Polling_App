@@ -5,7 +5,7 @@ import cookieParser from 'cookie-parser';
 const port = 5000
 console.log(port);
 import { db } from './config/db_connection.js';
-import router from './routes/indexRoute.js';
+import router from './routes/api/indexAPI.js';
 
 const app = express(); // instance of express server
 
